@@ -1,7 +1,7 @@
 {
   "name": "@shawacademynpm/gatsby-plugin-amplitude-analytics",
   "description": "Plugin to add Amplitude analytics to a Gatsby site",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Shaw Academy",
   "bugs": {
     "url": "https://github.com/shawacademy-com/gatsby-plugin-amplitude-analytics/issues"
