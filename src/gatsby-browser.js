@@ -14,7 +14,8 @@ exports.onRouteUpdate = function({ location }, pluginOptions) {
     }
 
     window.amplitude.getInstance().logEvent(window.amplitudeEventTypes.pageView, {
-      location: location ? location.pathname + location.search + location.hash : undefined
+      location: location ? location.pathname + location.search + location.hash : undefined,
+      hostname: location ? location.hostname : undefined,
     });
   }
 };
