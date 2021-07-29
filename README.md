@@ -17,7 +17,7 @@ or
 module.exports = {
   plugins: [
     {
-      resolve: `gatsby-plugin-amplitude-analytics`,
+      resolve: `@shawacademynpm/gatsby-plugin-amplitude-analytics`,
       options: {
         // Specify the API key for your Amplitude Project (required)
         apiKey: "YOUR_AMPLITUDE_ANALYTICS_API_KEY",
