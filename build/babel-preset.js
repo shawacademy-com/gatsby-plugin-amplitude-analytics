@@ -38,6 +38,7 @@ function preset(context, options = {}) {
       ],
       [r("@babel/preset-react"), { development: !PRODUCTION }],
       r("@babel/preset-flow"),
+      r('@babel/preset-typescript'),
     ],
     plugins: [
       r("@babel/plugin-proposal-class-properties"),

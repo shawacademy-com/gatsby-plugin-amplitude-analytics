@@ -1,2 +1,5 @@
 /*.js
+/components
+/lib
+/types
 node_modules

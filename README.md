@@ -55,7 +55,7 @@ To use it, simply import it and use it like you would the `<a>` element. For exa
 
 ```jsx
 import React;
-import { OutboundLink } from 'gatsby-plugin-amplitude-analytics';
+import { OutboundLink } from '@shawacademynpm/gatsby-plugin-amplitude-analytics';
 
 export default () => {
   <div>
