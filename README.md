@@ -68,6 +68,29 @@ export default () => {
 };
 ```
 
+## `<AmplitudeWrapper>` component
+
+To make it easy to user properties in Amplitude Analytics,
+the plugin provides a component.
+
+To use it, simply import it and wrap it arround your component. For example:
+
+```jsx
+import React;
+import { AmplitudeWrapper } from '@shawacademynpm/gatsby-plugin-amplitude-analytics';
+
+export default () => {
+  <AmplitudeWrapper
+    amplitudeInstance={YOUR_AMPLITUDE_INSTANCE}
+    apiKey="YOUR_AMPLITUDE_ANALYTICS_API_KEY"
+    userId={CURRENT_USER_ID} // (optional): If this is provided. The current userId is set to your amplitude instance
+    userProperties={CURRENT_USER_PROPERTIES} // (optional): If this is provided. The current properties are set to your amplitude instance
+   >
+    <Component />
+  </AmplitudeWrapper>
+};
+```
+
 ## The "respectDNT" option
 
 If you enable this optional option, Amplitude Analytics will not be loaded at all for visitors that have "Do Not Track" enabled. While using Amplitude Analytics does not necessarily constitute Tracking, you might still want to do this to cater to more privacy oriented users.
