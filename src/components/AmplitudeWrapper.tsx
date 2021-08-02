@@ -44,7 +44,7 @@ export function AmplitudeWrapper(props: Props) {
 }
 
 AmplitudeWrapper.propTypes = {
-  amplitudeInstance: PropTypes.object.isRequired,
+  amplitudeInstance: PropTypes.object,
   apiKey: PropTypes.string,
   userId: PropTypes.string,
   userProperties: PropTypes.object,
